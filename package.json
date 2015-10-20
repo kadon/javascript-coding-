@@ -7,7 +7,9 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test":"istanbul cover tape \"test/*Test.js\"",
+    "ci-test": "istanbul cover _mocha -- -R tap \"test/*Test.js\" > test.tap && istanbul report clover",
+    "ci-lint": "eslint -f checkstyle index.js > checkstyle-result.xml"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,7 @@
   },
   "homepage": "https://github.com/kadon/javascript-coding-",
   "devDependencies": {
+    "eslint": "^1.7.2",
     "istanbul": "^0.4.0",
     "tape": "^4.2.1"
   }
