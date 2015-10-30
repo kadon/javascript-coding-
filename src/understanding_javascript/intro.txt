@@ -1,0 +1,45 @@
+// Execution context
+///////////////////////////////
+//                           //
+//  function doSomething(){  //
+//    var value = "hello!!"; //  //Lexical environment: where you write something is important
+//  }                        //
+//                           //
+//////////////////////////////
+
+         //////
+         //////
+         //////
+         //////
+      ////////////
+        //////
+         ///
+         //
+
+// Syntax parser
+// Reads your code, so computer can understand what it does, and grammar validation.
+/////////////////////////////
+//                         //
+//       Interpreter       //
+//                         //
+/////////////////////////////
+
+         //////
+         //////
+         //////
+         //////
+      ////////////
+        //////
+         ///
+         //
+
+//Computer instruccions (computer's memory)
+//   ||||||||||||||||||||||| 
+//   |||||             |||||
+//   |||||   function  |||||
+//   |||||             |||||
+//   |||||   |||||||||||||||||||||||
+//   |||||||||||||             |||||
+//           |||||   variable  |||||   //Lexial environment
+//           |||||             |||||
+//           |||||||||||||||||||||||

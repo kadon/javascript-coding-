@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/kadon/javascript-coding-/issues"
   },
-  "homepage": "https://github.com/kadon/javascript-coding-"
+  "homepage": "https://github.com/kadon/javascript-coding-",
+  "dependencies": {
+    "mocha": "^2.3.3"
+  }
 }
