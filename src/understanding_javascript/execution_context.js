@@ -45,7 +45,14 @@ console.log(this); //TEST CODE IN NODE CONSOLE
 // creation_and_hoisting_3.js
 
 
-//  Execution context is created in two faces:
-//    1) Creation face (creation of Global Object, this and Outer environment) minute 42
+//  Execution context is created in two Phases:
+//    1) Creation phase (creation of Global Object (when it's global execution context), this and Outer environment)
+//       then it setup Memory Space for variables and functions "Hoisting", for variables they are set equal to undefined,
+//       Before the code is executed line by line variable an functions exits in memory, so when the code is being executed
+//       line by line it can access them.
+//
+//    2) ... later on
 
-
+// Javascript and undefined
+//
+//  javascript_and_undefined.js
